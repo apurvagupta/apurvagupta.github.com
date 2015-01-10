@@ -38,7 +38,7 @@ iframe {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .intro-message {
@@ -119,7 +119,8 @@ iframe {
     padding: 100px 0;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: 100% 100%;
+    max-width: none;
 }
 
 .banner h2 {
