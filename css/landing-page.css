@@ -21,8 +21,8 @@ font-family: 'Metrophobic', Arial, sans-serif;
     
 }
 
-.resize{
-
+ul li{
+    font-size: 18px;
 }
 iframe {
     width: 100%;
@@ -38,6 +38,22 @@ iframe {
 .navbar-default .navbar-brand {
     color: rgb(200,10,10);;
 }
+
+/*For refactoring*/
+.navbar-brand {
+float: left;
+height: 80px;
+padding: 15px 15px 0 0;
+font-size: 30px;
+line-height: 45px;
+}
+
+.nav.navbar-nav.navbar-right{
+    margin-top: 15px;
+}
+
+
+
 .lead {
     font-size: 18px;
     font-weight: 400;
