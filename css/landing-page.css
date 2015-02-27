@@ -86,15 +86,18 @@ line-height: 45px;
     color: black;
 }
 .carousel-inner {
-    height: 250px;
+    height: 370px;
 }
 
 .carousel-inner .item blockquote {
-    width: 1170px;
-    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
     border: none;
 }
-.carousel-inner .item blockquote p {
+.carousel-inner .item blockquote p, h6 {
     text-align: center;
 }
 
