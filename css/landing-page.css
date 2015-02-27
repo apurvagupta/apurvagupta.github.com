@@ -55,6 +55,12 @@ iframe {
     margin-bottom: 0px;
 }
 
+@media only screen and (max-width : 320px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
 /*For refactoring*/
 .navbar-brand {
 float: left;
