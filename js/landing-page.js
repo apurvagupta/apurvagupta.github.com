@@ -19,7 +19,7 @@
 	$("html").niceScroll({
 		zindex:999999,
 		boxzoom:true,
-		cursoropacitymin :0.5,
+		cursoropacitymin :0.3,
 		cursoropacitymax :0.8,
 		cursorwidth :"10px",
 		cursorborder :"0px solid",
